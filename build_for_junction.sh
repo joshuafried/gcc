@@ -3,6 +3,8 @@
 set -e
 set -x
 
+sudo apt-get install -y libgmp-dev libmpfr-dev libmpc-dev
+
 mkdir build
 cd build
 
